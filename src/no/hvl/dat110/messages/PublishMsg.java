@@ -35,12 +35,4 @@ public class PublishMsg extends Message {
 		return "[New published message = " + topic + ", " + "user = " + getUser() + ", " + "message = " + message + " ]";
 	}
 
-
-	// TODO:
-	// Implement object variables - a topic and a message is required
-
-	// Constructor, get/set-methods, and toString method
-	// as described in the project text
-	
-
 }
