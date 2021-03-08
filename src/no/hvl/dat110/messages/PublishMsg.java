@@ -10,7 +10,7 @@ public class PublishMsg extends Message {
 	private String topic;
 
 
-	public PublishMsg(String user, String message, String topic){
+	public PublishMsg(String user, String topic, String message){
 		super(MessageType.PUBLISH, user);
 		this.message = message;
 		this.topic = topic;

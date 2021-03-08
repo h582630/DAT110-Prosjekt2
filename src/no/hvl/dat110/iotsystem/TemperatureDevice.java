@@ -20,8 +20,6 @@ public class TemperatureDevice {
 
 		Client client = new Client("temp sensor", Common.BROKERHOST, Common.BROKERPORT);
 
-
-
 		client.connect();
 
 		for(int i = 0; i < COUNT; i++){

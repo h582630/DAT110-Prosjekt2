@@ -59,7 +59,6 @@ public class Storage {
 
 	public void removeClientSession(String user) {
 
-
 		clients.remove(user);
 		
 	}
